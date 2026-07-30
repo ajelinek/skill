@@ -17,6 +17,8 @@ Creates a handoff document and saves to `$TEMP/handoff-{name}.md`.
 - Note suggested skills and immediate next step
 - Redact sensitive data (keys, passwords, PII)
 
+If the user passes additional arguments (e.g., `/handoff create project-x "focus on auth flow"`), treat them as a description of what the next session will focus on and tailor the handoff doc accordingly.
+
 ### `/handoff list`
 Lists all handoff files in `$TEMP/` matching `handoff-*.md`.
 - Shows filename, creation time, and brief summary
